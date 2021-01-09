@@ -3,10 +3,11 @@ header{
 	float: left;
 	line-height: 3rem;
 	font-family:OCR A Std, monospace;
-	margin-right: 2rem;
-	margin-top: -4rem;
+	margin-right: 3rem;
+	padding-top: 3rem;
 	width:7rem;
-
+	height: 70rem;
+	position: fixed;
 }
 
 header li {
@@ -20,6 +21,8 @@ header li {
 	padding-top: 2rem;
 	margin-bottom: 0.35rem;
 	padding-left: 0.5rem;
+	width: 150%;
+
 }
 
 header li.active {
@@ -37,9 +40,12 @@ header li:hover {
 }
 
 body {
-	color:#474B47;
+	color:#6f786f;
 	background-color:#222629;
 	font-family:OCR A Std, monospace;
+
+	display: flex;
+	flex-direction: column;
 }
 
 h1{
@@ -84,7 +90,6 @@ a:hover{
 	text-decoration: none;
 }
 .menu_list{
-	
 	padding-left: 0.5rem;
 }
 
@@ -96,6 +101,7 @@ a:hover{
 }
 
 footer {
+	color:white;
 	line-height: 1rem;
 	display: flex;
 	flex-direction: row;
@@ -104,6 +110,13 @@ footer {
 	width: 85%;
 	margin:auto;
 	border-radius: 1rem;
+	flex-shrink: 0;
 }
 
+html, body {
+	height: 100%;
+}
 
+.content {
+	flex: 1 0 auto;
+}

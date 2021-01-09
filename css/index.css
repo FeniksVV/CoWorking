@@ -1,9 +1,16 @@
 #preface{
-	width: 75%;
+	margin: auto;
+	margin-top: 1rem; 
+	width: 50%;
 }
 #welcome{
+	display: flex;
+	justify-content: center;
 	margin-top: 5rem;
+	margin-bottom: 1rem;
 }
+
+
 
 #start_ctr{
 	width:19rem;
@@ -15,6 +22,17 @@
 	border-radius: 9rem;
 }	
 
+#start:hover{
+	color: white;
+	box-shadow: 0rem 0rem 2rem 1rem #b4ff4a95,0rem 0rem 0.5rem 0.5rem white;
+
+	-webkit-animation: none !important;
+	-moz-animation: none !important;
+	-o-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+}
+
 #start{
 	color: #b4ff4a;
 	padding:1rem;
@@ -23,11 +41,15 @@
 	/* in order: x offset, y offset, blur size, spread size, color */
 	/* blur size and spread size are optional (they default to 0) */
 	border-radius: 9rem;
-	box-shadow: 0rem 0rem 1rem 0.1rem #b4ff4a;
 }
 
-#start:hover{
-	color: white;
-	border-radius: 9rem;
-	box-shadow: 0rem 0rem 2rem 1rem #b4ff4a95,0rem 0rem 0.5rem 0.75rem white;
+@keyframes glowing {
+	0% { box-shadow: 0 0 10px #b4ff4a; }
+	40% { box-shadow: 0 0 30px #b4ff4a; }
+	60% { box-shadow: 0 0 30px #b4ff4a; }
+	100% { box-shadow: 0 0 10px #b4ff4a; }
+}
+
+.button-glow {
+	animation: glowing 3000ms infinite;
 }
