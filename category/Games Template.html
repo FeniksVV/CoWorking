@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{category}</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/games.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="menu_list">
+            <ul>
+                <li><a href="../index.html">Home</a> > </li>
+                <li><a href="../vraag1.html">Question 1</a> > </li>
+                <li><a href="../vraag2x.html">Question 2</a> > </li>
+                <li><a href="../vraag3x.html">Question 3</a> > </li>
+                <li class="active"><a href="{category}.html">{category}</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>{Category}</h1>
+        <p>Congratulations! You've finished the quiz.</p>
+        <p>Here are some games in the category of {Category} that we think you would like.</p>
+    </section>
+
+    <section>
+        <h2>{Game 1}</h2>
+        <p>{developer}</p>
+        <div><img src="../images/" alt="{game} Cover"></div>
+        <div>{trailer}</div>
+        <p>{Description}</p>
+        <p><a href="../games/">More info...</a></p>
+    </section>
+
+    <section>
+        <h2>{Game 2}</h2>
+        <p>{developer}</p>
+        <div><img src="../images/" alt="{game} Cover"></div>
+        <div>{trailer}</div>
+        <p>{Description}</p>
+        <p><a href="../games/">More info...</a></p>
+    </section>
+
+    <footer class="footer">
+        <p>Author: Sander Van Houtte<br>
+            <a href="../index.html">Back Home</a></p>
+    </footer>
+</body>
+
+</html>
