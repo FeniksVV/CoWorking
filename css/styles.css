@@ -108,9 +108,20 @@ footer {
 	justify-content: center;
 	background-color:#61892F;
 	width: 85%;
-	margin:auto;
+	margin-left:;
 	border-radius: 1rem;
-	flex-shrink: 0;
+	align-items: center;
+
+	position:relative;
+	bottom:0px;
+	height: 2rem;
+	padding: 0.5rem;
+}
+
+
+.footer_ctr{
+	display: flex;
+	justify-content: center;
 }
 
 html, body {
@@ -119,4 +130,20 @@ html, body {
 
 .content {
 	flex: 1 0 auto;
+}
+
+.hide {
+	display: none;
+	margin-left: 1rem;
+	color: #373837;
+}
+
+.myDIV:hover + .hide {
+	display: block
+}
+
+button{
+	background-color: #373837;
+	color: #b4ff4a;
+	font-size: 1.2rem;
 }

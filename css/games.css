@@ -1,0 +1,44 @@
+
+.content{
+	background-color: #61892F20 ;
+	width: 60rem;
+	margin:auto;
+	text-align: center;
+	padding-bottom: 5rem;
+	padding-top: 3rem;
+}
+
+section{
+	width: 70%;
+	margin: auto;
+}
+
+iframe{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+img{
+	margin-top: 1rem;
+	animation: glowing 3000ms infinite;
+}
+
+h1{
+	margin-bottom: 1rem;
+}
+
+h2{
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	font-size: 2.5rem;
+	width: 90%;
+}
+
+
+@keyframes glowing {
+	0% { box-shadow: 0 0 5px #b4ff4a; }
+	40% { box-shadow: 0 0 20px #b4ff4a; }
+	60% { box-shadow: 0 0 20px #b4ff4a; }
+	100% { box-shadow: 0 0 5px #b4ff4a; }
+}

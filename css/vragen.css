@@ -1,0 +1,21 @@
+
+.main{
+	margin-top:6rem;
+	margin-left: auto;
+	margin:auto;
+}
+
+input {
+	visibility:hidden;
+}
+
+.answer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 6rem;
+}
+
+h2{
+	margin-bottom: 1rem;
+}

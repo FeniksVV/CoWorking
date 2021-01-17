@@ -6,7 +6,7 @@
 #welcome{
 	display: flex;
 	justify-content: center;
-	margin-top: 5rem;
+	margin-top: 4.2rem;
 	margin-bottom: 1rem;
 }
 
@@ -52,4 +52,20 @@
 
 .button-glow {
 	animation: glowing 3000ms infinite;
+}
+
+body{
+	background-image: url(../images/controller.svg);
+	background-repeat: no-repeat;
+	background-position: 70% 25%;
+	background-size: 75%;
+}
+
+.intro{
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+footer{
+	margin-top:12rem;
 }
